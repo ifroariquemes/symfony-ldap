@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <p><img src="{{ asset('images/ifro-horizontal.png') }}" class="img-responsive"><p>
+                </div>
+            </div>
+            <p>Este é um projeto básico de software criado para o Instituto Federal com
+                intuito de demonstrar a ligação com o AD para autenticar os usuários.</p>
+            <p>Você logou como <b>{{ user.name }}</b> usando o CPF ou SIAPE <b>{{ user.username }}</b>.</p>
+            <p>Me parece que você é um <b>{{ user.description }}</b> do Instituto.</p>
+        </div>
+    </div>
+{% endblock %}
