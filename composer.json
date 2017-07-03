@@ -1,7 +1,4 @@
 {
-    "name": "natanael/enquete",
-    "license": "proprietary",
-    "type": "project",
     "autoload": {
         "psr-4": {
             "": "src/"
