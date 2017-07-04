@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace IfroLdapBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use FR3D\LdapBundle\Model\LdapUserInterface;
